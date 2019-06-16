@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/login','Maincontrollers@index');
+
+Route::post('/save','Maincontrollers@main');
+
+
